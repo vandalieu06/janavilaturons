@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jana Vilaturons</title>
+  <link href="./assets/icon/icono-escuela.png" rel="shortcut icon" type="image/x-icon">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="./src/css/header.css" rel="stylesheet">
+  <link href="./src/css/global.css" rel="stylesheet">
+  <link href="./src/css/index.css" rel="stylesheet">
+  <link href="./src/css/footer.css" rel="stylesheet">
+  <script src="./main.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__box">
+        <img class="header__box--icon" src="./assets/icon/icono-escuela.png" alt="Icon de l'escola">
+      </div>
+      <menu class="header__nav">
+        <li class="header__nav--li">
+          <a class="header__nav--link" href="./index.html">Inici</a>
+        </li>
+        <li class="header__nav--li header__submenu--open">
+          <a class="header__nav--link" href="./src/pages/estudios.html">
+            Cicles Formatius <i class='bx bxs-down-arrow header__nav--icon'></i>
+          </a>
+          <ul class="header__submenu">
+            <li class="header__submenu--li">
+              <a class="header__submenu--link" href="./src/pages/fp/smix.html">SMIX</a>
+            </li>
+            <li class="header__submenu--li">
+              <a class="header__submenu--link" href="./src/pages/fp/smix.html">ASIX</a>
+            </li>
+            <li class="header__submenu--li">
+              <a class="header__submenu--link" href="./src/pages/fp/smix.html">DAW</a>
+            </li>
+            <li class="header__submenu--li">
+              <a class="header__submenu--link" href="./src/pages/fp/smix.html">DAM</a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__nav--li">
+          <a class="header__nav--link" href="./src/pages/herramientas.html">Eines</a>
+        </li>
+        <li class="header__nav--li header__submenu--open">
+          <span class="header__nav--link" >
+            Intranet <i class='bx bxs-down-arrow header__nav--icon'></i>
+          </span>
+          <ul class="header__submenu">
+            <li class="header__submenu--li">
+              <a class="header__submenu--link" href="http://moodle.jvilaturons.cat" target="_blank">Moodle</a>
+            </li>
+          </ul>
+        </li>
+        <li class="header__nav--li">
+          <a class="header__nav--link" href="./src/pages/nosaltres.html">Sobre Nosaltres</a>
+        </li>
+        <li class="header__nav--li">
+          <a class="header__nav--link" href="./src/pages/contacto.html">Contacte</a>
+        </li>
+      </menu>
+      
+      <nav class="header__nav-mobile">
+        <div class="header__nav-mobile--ham-menu">
+          <span class="header__nav-mobile--span"></span>
+          <span class="header__nav-mobile--span"></span>
+          <span class="header__nav-mobile--span"></span>
+        </div>
+
+        <div class="header__menu-mobile">
+          <ul class="header__menu-mobile--menu">
+            <li class="header__menu-mobile--li">
+              <a class="header__menu-mobile--link" href="./index.html">Inici</a>
+            </li>
+            <li class="header__menu-mobile--li header__submenu--open">
+              <a class="header__menu-mobile--link" href="./src/pages/estudios.html"> Cicles Formatius </a>
+            </li>
+            <!-- PADDING LEFT -->
+              <!-- <li class="header__menu-mobile--li header__menu-mobile--li-arrow">
+                <a class="header__menu-mobile--link" href="./src/pages/fp/smix.html">SMIX</a>
+              </li>
+              <li class="header__menu-mobile--li header__menu-mobile--li-arrow">
+                <a class="header__menu-mobile--link" href="./src/pages/fp/smix.html">ASIX</a>
+              </li>
+              <li class="header__menu-mobile--li header__menu-mobile--li-arrow">
+                <a class="header__menu-mobile--link" href="./src/pages/fp/smix.html">DAW</a>
+              </li>
+              <li class="header__menu-mobile--li header__menu-mobile--li-arrow">
+                <a class="header__menu-mobile--link" href="./src/pages/fp/smix.html">DAM</a>
+              </li> -->
+            <!-- PAFFING LEFT FIN  -->
+            <li class="header__menu-mobile--li">
+              <a class="header__menu-mobile--link" href="./src/pages/herramientas.html">Eines</a>
+            </li>
+            <li class="header__menu-mobile--li">
+              <a class="header__menu-mobile--link" href="./src/pages/nosaltres.html">Sobre Nosaltres</a>
+            </li>
+            <li class="header__menu-mobile--li">
+              <a class="header__menu-mobile--link" href="./src/pages/contacto.html">Contacte</a>
+            </li>
+            <li class="header__menu-mobile--li">
+              <a class="header__menu-mobile--link" href="http://moodle.jvilaturons.cat" target="_blank">Intranet</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="portada">
+    <div class="portada__container">
+        <h1 class="portada__title">BENVINGUT A JANA VILATURONS</h1>
+        <h3 class="portada__subtitle">
+          Descobreix la nostra escola de formació professional en Informàtica i Comunicacions amb programes de DAW, ASIX, SMIX i DAM, dissenyats per impulsar el teu futur tecnològic.
+        </h3>
+        <a href="./src/pages/contacto.html"  class="portada__btn">
+          INSCRIURE'S ARA
+        </a>
+    </div>
+  </section>
+
+  <!--  -->
+
+  <section class="escuela">
+    <div class="escuela__container">
+      <div class="escuela__content">
+        <a class="escuela__box--link" href="">
+          <article class="escuela__box">
+            <img class="escuela__box--img" src="./assets/img/escola-2.jpg" alt="">
+            <span class="escuela__box--text">Curs <br>2024-25</span>
+          </article>  
+        </a>
+        <a class="escuela__box--link" href="./src/pages/estudios.html">
+          <article class="escuela__box">
+            <img class="escuela__box--img" src="./assets/img/escola-1.jpg" alt="">
+            <span class="escuela__box--text">Graus</span>
+          </article>  
+        </a>
+        <a class="escuela__box--link" href="./src/pages/herramientas.html">
+          <article class="escuela__box">
+            <img class="escuela__box--img" src="./assets/img/escola-3.jpg" alt="">
+            <span class="escuela__box--text">Espais Virtuals</span>
+          </article>  
+        </a>
+        <a class="escuela__box--link" href="./src/pages/nosaltres.html">
+          <article class="escuela__box">
+            <img class="escuela__box--img" src="./assets/img/escola-6.jpg" alt="">
+            <span class="escuela__box--text">Coneix-nos</span>
+          </article>  
+        </a>
+        <a class="escuela__box--link" href="./src/pages/gallery.html">
+          <article class="escuela__box">
+            <img class="escuela__box--img" src="./assets/img/escola-5.jpg" alt="">
+            <span class="escuela__box--text">Galeria</span>
+          </article>  
+        </a>
+        <a class="escuela__box--link" href="./src/pages/faq.html">
+          <article class="escuela__box">
+            <img class="escuela__box--img" src="./assets/img/escola-4.jpg" alt="">
+            <span class="escuela__box--text">FAQ</span>
+          </article>  
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!--  -->
+
+  <section class="video-promo">
+    <div class="video-promo__container">
+      <article class="video-promo__video">
+        <iframe class="video-promo__video--yt" width="550px" height="100%" src="https://www.youtube.com/embed/Gun_CBafD8Q" title="Video Promocional Colegio Casa de Vida 2021" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </article>
+      <article class="video-promo__content">
+        <h2 class="video-promo__content--title">Promoció Escola 2024-2025</h2>
+        <p class="video-promo__content--text">
+          Entra en el futur de la tecnologia amb els nostres programes de formació professional en Informàtica i Comunicacions per al curs 2024-2025. Desenvolupa les teves habilitats amb DAW, ASIX, SMIX i DAM, i prepara't per a les oportunitats laborals més innovadores.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!--  -->
+
+  <section class="contacto">
+    <div class="contacto__container">
+      <h1 class="contacto__title">DEMANA MES INFORMACIO</h1>
+      <h3 class="contacto__subtitle">Tens alguna duda?<h3>
+      <h3 class="contacto__subtitle">Contacta amb nosaltres</h3>
+      <a href="./src/pages/contacto.html"  class="contacto__btn">
+        CONTACTE
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTEr -->
+
+  <footer class="footer">
+    <div class="footer__container">
+      <h2 class="footer__title">Jana Vilaturons</h2>
+      <h3 class="footer__subtitle footer__italic">"Formant Líders Digitals del Demà"</h3>
+      
+      <ul class="footer_social--media">
+        <li class="footer__li">
+          <a class="footer__li--link" href="#"><i class='footer__icon footer__icon--1 bx bxl-facebook-circle'></i></a>
+        </li>
+        <li class="footer__li">
+          <a class="footer__li--link" href="#"><i class='footer__icon footer__icon--2 bx bxl-whatsapp-square' ></i></a>
+        </li>
+        <li class="footer__li">
+          <a class="footer__li--link" href="#"><i class='footer__icon footer__icon--3 bx bxl-instagram-alt' ></i></a>
+        </li>
+        <li class="footer__li">
+          <a class="footer__li--link" href="#"><i class='footer__icon footer__icon--4 bx bxl-gmail'></i></a>
+        </li>
+      </ul>
+      
+      <div class="footer__banner">
+          <p>Copyright 2020&copy; Jana Vilaturons>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

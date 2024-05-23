@@ -1,0 +1,164 @@
+
+/* PORTADA */
+
+.portada{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(2,0,36,0.5) 0%, rgba(6,46,54,0.5) 100%), url("../../assets/img/noslatres.jpg") center center;
+  background-size: cover;
+}
+.portada__container{
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-2);
+}
+.portada__title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+/*HISTORIA*/
+.historia {
+  width: 100%;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+
+}
+.historia__container {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+.historia__box {
+  width: 50%;
+}
+.historia__box--img {
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+}
+.historia__box--title {
+  font-size: 2.5rem;
+}
+.historia__box--text {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.historia__box--text:nth-child(3){
+  padding-top: 15px;
+}
+
+/* MISION Y VALORES */
+.carateristicas {
+  width: 100%;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  background-color: var(--bg-6);
+}
+.carateristicas__container {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+.carateristicas__box {
+  width: 50%;
+}
+.carateristicas__box--title {
+  font-size: 2.5rem;
+}
+.carateristicas__box--text {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+/* VALORES */
+.valores{
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+}
+.valores__container{
+  width: 1200px;
+}
+.valores__title{
+  font-size: 2.5rem;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+  /* CAJA DE VALOREs */
+.valores__boxs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+}
+.valores__box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.valores__box--img {
+  width: 100px;
+  height: 100px;
+}
+.valores__box--title {
+  font-size: 2rem;
+  text-align: center;
+}
+.valores__box--text {
+  margin: -10px 0 0 0;
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+/*RESPONSIVE*/
+@media only screen and (max-width: 700px){
+    /*INCIO - PORTADA*/
+    .portada__title {
+      font-size: 2.5rem;
+    }
+  
+  /* SEC 1 */
+  .historia__container{
+    width: 100%;
+    padding: 0 30px;
+    flex-direction: column;
+  }
+  .historia__box{
+    width: 100%;
+  }
+
+  /* SEC 2 */
+  .carateristicas__container{
+    width: 100%;
+    flex-direction: column;
+    padding: 0 30px;
+  }
+  .carateristicas__box{
+    width: 100%;
+  }
+
+  /* SEC 3 */
+  .valores__title{
+    text-align: start;
+  }
+  .valores__container{
+    width: 100%;
+    padding: 0 30px;
+  }
+}
