@@ -3,7 +3,7 @@
   height: 600px;
   display: flex;
   justify-content: center;
-  background: url("../../../assets/img/background-1.jpg") center center;
+  background: url("../../assets/img/background-1.jpg") center center;
   background-size: cover;
 }
 .portada__container{
